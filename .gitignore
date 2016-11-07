@@ -1,0 +1,24 @@
+##########################
+# Unreal Generated Files #
+##########################
+Build
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+
+################################################
+# Don't want to include Unreal starter content #
+# for this particular project                  #
+################################################
+Content/StarterContent/
+
+################################################
+# Ignore Visual Studio Generated database file #
+################################################
+*.VC.db
+
+Content/InfinityBladeEffects/
+Content/InfinityBladeGrassLands/
+Content/InfinityBladeWeapons/
+Content/InfinityBladeIceLands/
