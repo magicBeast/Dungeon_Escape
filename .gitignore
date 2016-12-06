@@ -17,6 +17,8 @@ Content/StarterContent/
 # Ignore Visual Studio Generated database file #
 ################################################
 *.VC.db
+*.VC.opendb
+*.sln
 
 Content/InfinityBladeEffects/
 Content/InfinityBladeGrassLands/

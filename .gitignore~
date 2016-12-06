@@ -1,11 +1,11 @@
 ##########################
 # Unreal Generated Files #
 ##########################
-*/Build
-*/Binaries
-*/DerivedDataCache
-*/Intermediate
-*/Saved
+Build
+Binaries
+DerivedDataCache
+Intermediate
+Saved
 
 ################################################
 # Don't want to include Unreal starter content #
