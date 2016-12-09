@@ -66,8 +66,8 @@ float UOpenDoor::GetTotalMassOfActorsOnPlate()
 	for (auto& Actor : OverlappingActors) 
 	{
 		TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
-		UE_LOG(LogTemp, Warning, TEXT("%s reporting as overlapping pressure plate, sir!"), *Actor->GetName())
+		//UE_LOG(LogTemp, Warning, TEXT("%s reporting as overlapping pressure plate, sir!"), *Actor->GetName())
 	}
-	UE_LOG(LogTemp, Warning, TEXT("TotalMass = %f"), TotalMass);
+	// UE_LOG(LogTemp, Warning, TEXT("TotalMass = %f"), TotalMass);
 	return TotalMass;
 }
